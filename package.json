@@ -1,0 +1,26 @@
+{
+  "name": "node-cicd-demo",
+  "version": "1.0.0",
+  "description": "Sample Node.js app with GitHub Actions CI/CD and Docker.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ci",
+    "cd",
+    "github-actions",
+    "docker",
+    "nodejs",
+    "express"
+  ],
+  "author": "Md Asif",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
